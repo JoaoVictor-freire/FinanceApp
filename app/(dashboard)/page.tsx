@@ -1,9 +1,13 @@
-import { Button } from "@/components/ui/button";
+import { Header } from "@/components/header"
 
 export default function Home() {
   return (
-    <p>
-      This ins authenticated route
-    </p>
-  )
-}
+    <>
+      <Header/>
+      <main className = "px-3 lg:px-14">
+        Dashboard Page
+      </main>
+    </>
+    
+  );
+};
